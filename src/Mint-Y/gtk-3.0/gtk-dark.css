@@ -3037,11 +3037,11 @@ filechooser placessidebar list {
   background-color: transparent; }
 .nautilus-window placessidebar.sidebar list,
 filechooser placessidebar.sidebar list {
-  background-color: #353535; }
+  background-color: #383838; }
   .nautilus-window placessidebar.sidebar list row.sidebar-row,
   filechooser placessidebar.sidebar list row.sidebar-row {
     border: none;
-    color: #dbdbdb; }
+    color: #383838; }
     .nautilus-window placessidebar.sidebar list row.sidebar-row.has-open-popup, .nautilus-window placessidebar.sidebar list row.sidebar-row:hover,
     filechooser placessidebar.sidebar list row.sidebar-row.has-open-popup,
     filechooser placessidebar.sidebar list row.sidebar-row:hover {
@@ -3141,30 +3141,30 @@ NautilusListView .view, NautilusListView iconview {
   .nemo-window .nemo-inactive-pane .view, .nemo-window .nemo-inactive-pane iconview {
     background-color: #333333; }
   .nemo-window .places-treeview {
-    -NemoPlacesTreeView-disk-full-bg-color: #dbdbdb;
+    -NemoPlacesTreeView-disk-full-bg-color: #383838;
     -NemoPlacesTreeView-disk-full-fg-color: #76905b;
     -GtkTreeView-vertical-separator: 7; }
     .nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover {
-      background-color: rgba(219, 219, 219, 0.15); }
+      background-color: rgba(56, 56, 56, 0.15); }
   .nemo-window .nemo-places-sidebar.frame {
     border-width: 0; }
   .nemo-window .sidebar {
-    color: #dbdbdb;
-    background-color: #353535; }
+    color: #ded6d6;
+    background-color: #383838; }
     .nemo-window .sidebar .frame {
       border: none; }
     .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar row {
       background-color: transparent;
-      color: #dbdbdb; }
+      color: #DADADA; }
       .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar row.cell:selected {
         background-color: #8fa876;
         color: #ffffff; }
       .nemo-window .sidebar .view.expander, .nemo-window .sidebar iconview.expander, .nemo-window .sidebar row.expander {
-        color: #888888; }
+        color: #292929; }
         .nemo-window .sidebar .view.expander:hover, .nemo-window .sidebar iconview.expander:hover, .nemo-window .sidebar row.expander:hover {
           color: #dbdbdb; }
   .nemo-window grid > paned > separator {
-    background-image: linear-gradient(to bottom, #353535, #353535); }
+    background-image: linear-gradient(to bottom, #292929, #292929); }
   .nemo-window widget .toolbar .image-button, .nemo-window widget .toolbar headerbar button.titlebutton, headerbar .nemo-window widget .toolbar button.titlebutton,
   .nemo-window widget .toolbar .titlebar button.titlebutton,
   .titlebar .nemo-window widget .toolbar button.titlebutton {

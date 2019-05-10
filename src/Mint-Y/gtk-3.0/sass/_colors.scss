@@ -3,9 +3,9 @@
 
 
 $base_color: if($variant =='light', #ffffff, #404040);
-$text_color: if($variant == 'light', #303030, #DADADA);
-$bg_color: if($variant =='light', #F0F0F0, #383838);
-$fg_color: if($variant =='light', #303030, #DADADA);
+$text_color: if($variant == 'light', #282828, #DADADA);
+$bg_color: if($variant =='light', #ECECEC, #383838);
+$fg_color: if($variant =='light', #282828, #DADADA);
 
 $selected_fg_color: #ffffff;
 $selected_bg_color: if($variant == 'light', #92b372, #8fa876);
@@ -34,7 +34,7 @@ $insensitive_fg_color: if($variant == 'light', transparentize($fg_color, 0.45), 
 $insensitive_bg_color: if($variant == 'light', mix($bg_color, $base_color, 40%), lighten($bg_color, 2%));
 
 $header_bg: red;
-@if $variant=='light' { $header_bg: #d9d9d9; }
+@if $variant=='light' { $header_bg: #DEDDDD; }
 @if $variant=='dark' or $darker=='true' { $header_bg: #2f2f2f; }
 
 $header_bg_backdrop: if($darker == 'true' or $variant == 'dark', lighten($header_bg, 1.5%), lighten($header_bg, 3%));
@@ -49,7 +49,7 @@ $dark_sidebar_bg: if($variant == 'light', #404040, #353535);
 $dark_sidebar_fg: #dbdbdb;
 $dark_sidebar_border: if($variant == 'light', $dark_sidebar_bg, darken($dark_sidebar_bg, 5%));
 
-$filechooser_bg: if($variant == 'dark', #2f2f2f, #d9d9d9);
+$filechooser_bg: if($variant == 'dark', #2f2f2f, #DEDDDD);
 
 $tooltip_bg_color: #fbeaa0;
 $tooltip_fg_color: #4a4a4a;
@@ -83,7 +83,7 @@ $button_border: $borders_color;
 $header_button_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0.6), transparentize($button_bg, 0.1));
 $header_button_border: if($darker == 'true' or $variant == 'dark', transparentize(darken($header_bg, 12%), 0.6), transparentize($header_fg, 0.7));
 
-$trough_color_treeview: if($variant == 'light', #d9d9d9, darken($bg_color, 5%));
+$trough_color_treeview: if($variant == 'light', #DEDDDD, darken($bg_color, 5%));
 $trough_color: if($variant == 'light', #ffffff, darken($bg_color, 5%));
 
 // WM Colors

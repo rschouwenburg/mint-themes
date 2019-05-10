@@ -24,6 +24,7 @@ y_hex_colors1["Pink"] = "#c76199"
 y_hex_colors1["Purple"] = "#8c6ec9"
 y_hex_colors1["Red"] = "#c15b58"
 y_hex_colors1["Sand"] = "#c8ac69"
+y_hex_colors1["Sky"] = "#4095ff"
 y_hex_colors1["Teal"] = "#5aaa9a"
 
 y_hex_colors2 = {}
@@ -36,6 +37,7 @@ y_hex_colors2["Pink"] = "#b85f90"
 y_hex_colors2["Purple"] = "#866cba"
 y_hex_colors2["Red"] = "#b35a57"
 y_hex_colors2["Sand"] = "#b89f65"
+y_hex_colors2["Sky"] = "#90b4ed"
 y_hex_colors2["Teal"] = "#579c8e"
 
 y_hex_colors3 = {}
@@ -48,6 +50,7 @@ y_hex_colors3["Pink"] = "#c975a3"
 y_hex_colors3["Purple"] = "#9b84cb"
 y_hex_colors3["Red"] = "#d1716f"
 y_hex_colors3["Sand"] = "#c9b27c"
+y_hex_colors3["Sky"] = "#4095ff"
 y_hex_colors3["Teal"] = "#6dbbab"
 
 y_hex_colors4 = {}
@@ -60,6 +63,7 @@ y_hex_colors4["Pink"] = "#924d73"
 y_hex_colors4["Purple"] = "#6a5497"
 y_hex_colors4["Red"] = "#9a4a47"
 y_hex_colors4["Sand"] = "#947f51"
+y_hex_colors4["Sky"] = "#4095ff"
 y_hex_colors4["Teal"] = "#4e8378"
 
 # Mint-Y variations

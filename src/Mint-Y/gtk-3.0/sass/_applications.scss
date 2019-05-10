@@ -146,11 +146,11 @@ filechooser {
   .csd.background, placessidebar list { background-color: transparent; }
 
   placessidebar.sidebar list {
-    background-color: $dark_sidebar_bg;
+    background-color: $bg_color;
 
     row.sidebar-row {
       border: none;
-      color: $dark_sidebar_fg;
+      color: $bg_color;
 
       &.has-open-popup,
       &:hover { background-color: transparentize($dark_sidebar_fg, 0.85); }
@@ -259,24 +259,24 @@ NautilusListView .view { border-bottom: 1px solid $borders_color; }
   }
 
   .places-treeview {
-    -NemoPlacesTreeView-disk-full-bg-color: $dark_sidebar_fg;
+    -NemoPlacesTreeView-disk-full-bg-color: $bg_color;
     -NemoPlacesTreeView-disk-full-fg-color: darken($selected_bg_color, 10%);
     -GtkTreeView-vertical-separator: 7;
 
-    .view.cell:hover { background-color: transparentize($dark_sidebar_fg, 0.85); }
+    .view.cell:hover { background-color: transparentize($bg_color, 0.85); }
   }
 
   .nemo-places-sidebar.frame { border-width: 0; }
 
   .sidebar {
-    color: $dark_sidebar_fg;
-    background-color: $dark_sidebar_bg;
+    color: $header_fg;
+    background-color: $bg_color;
 
     .frame { border: none; }
 
     .view, row {
       background-color: transparent;
-      color: $dark_sidebar_fg;
+      color: $text_color;
 
       &.cell:selected {
         background-color: $selected_bg_color;
@@ -284,7 +284,7 @@ NautilusListView .view { border-bottom: 1px solid $borders_color; }
       }
 
       &.expander {
-        color: mix($dark_sidebar_fg, $dark_sidebar_bg, 50%);
+        color: $borders_color;
 
         &:hover { color: $dark_sidebar_fg; }
       }
@@ -295,7 +295,7 @@ NautilusListView .view { border-bottom: 1px solid $borders_color; }
 
   /* This is to keep the separator next to the sidebar dark so we don't see a gap
      between it and the trash bar */
-  grid > paned > separator { background-image: _solid($dark_sidebar_bg); }
+  grid > paned > separator { background-image: _solid($borders_color); }
 
   // Fix padding of the statusbar buttons
   & widget .toolbar .image-button { padding: 0; }
